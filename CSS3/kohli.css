@@ -1,0 +1,11 @@
+h1{
+    text-align:center;
+    color:#CB4335
+}
+.box{
+    height:214px;
+    width:1250px;
+    border:1px solid black;
+    display:flex;
+    color:rgb(209, 33, 33);
+}
