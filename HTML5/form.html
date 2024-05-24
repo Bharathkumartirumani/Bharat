@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form name="form" method="get">
+      <table border="1">
+        <tr>
+          <td>Full Name</td>
+          <td><input type="text" name="fullname" value="" required/></td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td><input type="password" name="password" value="" /></td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td><input type="email" name="email" value="" required/></td>
+        </tr>
+        <tr>
+          <td>gender</td>
+          <td>
+            <input type="radio" name="gender" value="male" />Male
+            <input type="radio" name="gender" value="female" />Female
+          </td>
+        </tr>
+        <tr>
+          <td>Hobbies</td>
+          <td>
+            <input type="checkbox" name="hobbies[]" />cricket
+            <input type="checkbox" name="hobbies[]" />volleyball
+            <input type="checkbox" name="hobbies[]" />badminton
+            <input type="checkbox" name="hobbies[]" />baseball
+          </td>
+        </tr>
+        <tr>
+          <td>File</td>
+          <td><input type="file" name="file upload" /></td>
+        </tr>
+        <tr>
+          <td>bikes</td>
+          <td>
+            <select name="bikes">
+              <option>choose one</option>
+              <option>bullet</option>
+              <option>fz</option>
+              <option>kawasaki</option>
+              <option>activa</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Date</td>
+          <td><input type="date" /></td>
+        </tr>
+        
+        <tr>
+          <td><input type="submit" name="submit" /></td>
+          <td><input type="reset" name="reset" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
