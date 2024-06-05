@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, #429, #688);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1.3;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}

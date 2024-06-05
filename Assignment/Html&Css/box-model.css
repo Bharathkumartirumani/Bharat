@@ -1,0 +1,18 @@
+.container{
+    margin: 0 auto;;
+    justify-content: center;
+    align-items: center;
+}
+.box-model{
+    height: 200px;
+    width:200px;
+    background-color: aqua;
+    border: 2px solid black;
+    color: blue;
+    text-align: center;
+    line-height: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px;
+    margin: 30px;
+    
+}

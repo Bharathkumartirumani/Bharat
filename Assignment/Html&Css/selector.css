@@ -1,0 +1,18 @@
+*{
+    background-color:rosybrown;
+}
+p{
+    color:rgb(123,246,239);
+}
+.sub_heading1{
+    color: rgb(198, 80, 84);
+    text-transform: uppercase;
+}
+#sub_heading2{
+    color:blueviolet;
+    text-transform: uppercase;
+}
+li{
+    line-height: 30px;
+    background-color:#fab;
+}
