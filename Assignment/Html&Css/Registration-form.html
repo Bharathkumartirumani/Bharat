@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css"/>
+</head>
+<body>
+    <div class="container">
+                <form name="for" method="post">
+                    <lable name="">First Name:</lable>
+                    <input type="text" name="firstname" placeholder="Firstname" value="" required/>
+                    <lable name="">Last Name:</lable>
+                    <input type="text" name="lastname" placeholder="Lastname" value=""/></form>
+                    <lable name="" >Username:</lable>
+                    <input type="text"  name="username" placeholder="username" value="" required pattern="[a-zA-Z0-9]+" minlength="7" maxlength="15"/></div>
+                    <lable name="" >E-mail:</lable>
+                    <input type="email"  name="email" placeholder="email" value="" required/></body>
+                    <lable name="" >Password:</lable>
+                    <input type="password"  name="password" placeholder="password" value="" required minlength="8" maxlength="17"/></br>
+                    <lable name="" >Confirm Password:</lable>
+                    <input type="password"  name="password1" placeholder="confirm_password" value="" required minlength="8" maxlength="17"/></br>
+                    <lable name="" >Date:</lable>
+                    <input type="date"  name="date"/></br>
+                    <lable name="" >Gender:</lable>
+                    <input type="radio" name="gender" value="male" />Male
+                    <input type="radio" name="gender" value="female" />Female
+                    <input type="radio" name="gender" value="female" />others</br>
+                    <lable name="" >Intrests:</lable>
+                    <input type="checkbox" name="hobbies[]" />Cricket
+                    <input type="checkbox" name="hobbies[]" />Badminton
+                    <input type="checkbox" name="hobbies[]" />Hockey
+                    <input type="checkbox" name="hobbies[]" />Football</br>
+                    <lable name="" >Country:</lable>
+                    <select name="country">
+                        <option>choose one:</option>
+                        <option>India</option>
+                        <option>Australia</option>
+                        <option>England</option>
+                    </select></br>
+                    <lable name="" >Profile Picture:</lable>
+                    <input type="file" name="file upload" /></br>
+                    <lable name="" >Short Bio::</lable>
+                    <textarea></textarea></br>
+                    <lable name="" >Terms and Conditions:</lable>
+                    <input type="checkbox" name="Condition[]" />Yes
+                    <input type="checkbox" name="Condition[]" />No</br>
+                    <input id="button" type="submit"/>
+                    <input id="reset" type="reset"/>
+                </form>
+            </div>
+        
+</body>
+</html>

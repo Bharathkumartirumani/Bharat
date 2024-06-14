@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color:white;
+}
+.container{
+    padding:10px;
+}
+lable{
+    padding:10px;
+    color:black
+
+}
+/* form input{
+    display:flex;
+    padding:10px;
+    text-align:center;
+    margin:0 auto;
+    background-color: bisque;
+    border-color: brown;
+} */
+
+#button:hover{
+      background-color: aqua;
+}
+#reset:hover{
+    background-color: brown;
+}
