@@ -1,0 +1,56 @@
+h1{
+    text-align:center;
+    margin-bottom: 40px;
+}
+#table1{
+    width:992px;
+}
+table{
+    margin: 0 auto;
+    /*Each cell width is fixed with fixed property. if you keep auto it will adjust according to size of the cell*/
+    table-layout: auto;
+    border-collapse: collapse;
+    width:100%;
+}
+tr:nth-of-type(odd){
+    background-color: aquamarine;
+}
+tr{
+    background-color: aqua;
+}
+th,td{
+    padding:10px;
+    text-align:center;
+}
+ @media only screen and (max-width:768px) {
+    th,td{
+        display:block;
+    }
+    thead tr{
+        position:absolute;
+        top: -9999px;
+        left: -9999px;
+        /* display:none; */
+    }
+    tr{
+        border:1px solid #adec4a;
+    }
+    tr+tr{
+        margin-top:10.5em;
+    }
+    td{
+        border:none;
+        border-bottom:1px solid #123456;
+        position:relative;
+        padding-left:50%;
+        text-align:center;
+    }
+    td::before{
+        content:attr(data-label);
+        display:inline-block;
+        line-height: 1.5;
+        margin-left: -100%;
+         width: 100%;
+        white-space: nowrap; 
+ }
+ } 

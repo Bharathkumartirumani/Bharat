@@ -4,34 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="form.css"/>
+    <link rel="stylesheet" href="Registration-form1.css"/>
 </head>
 <body>
     <div class="container">
-                <form name="for" method="post">
+            <form name="for" method="post">
+                <div class="form-group">
+                    <h1>Registration Form</h1>
+                </div>
+                <div class="form-group1">
                     <lable name="">First Name:</lable>
                     <input type="text" name="firstname" placeholder="Firstname" value="" required/>
                     <lable name="">Last Name:</lable>
-                    <input type="text" name="lastname" placeholder="Lastname" value=""/></form>
+                    <input type="text" name="lastname" placeholder="Lastname" value=""/></br>
+                </div>
+                <div class="form-group">
                     <lable name="" >Username:</lable>
-                    <input type="text"  name="username" placeholder="username" value="" required pattern="[a-zA-Z0-9]+" minlength="7" maxlength="15"/></div>
+                    <input type="text"  name="username" placeholder="username" value="" required pattern="[a-zA-Z0-9]+" minlength="7" maxlength="15"/></br>
+                </div>
+                <div class="form-group">
                     <lable name="" >E-mail:</lable>
-                    <input type="email"  name="email" placeholder="email" value="" required/></body>
+                    <input type="email"  name="email" placeholder="email" value="" required/></br>
+                </div>
+                <div class="form-group">
                     <lable name="" >Password:</lable>
                     <input type="password"  name="password" placeholder="password" value="" required minlength="8" maxlength="17"/></br>
+                </div>
+                <div class="form-group">
                     <lable name="" >Confirm Password:</lable>
                     <input type="password"  name="password1" placeholder="confirm_password" value="" required minlength="8" maxlength="17"/></br>
+                </div>
+                <div class="form-group">
                     <lable name="" >Date:</lable>
                     <input type="date"  name="date"/></br>
+                </div>
+                <div class="form-group1">
                     <lable name="" >Gender:</lable>
                     <input type="radio" name="gender" value="male" />Male
                     <input type="radio" name="gender" value="female" />Female
                     <input type="radio" name="gender" value="female" />others</br>
+                </div> 
+                <div class="form-group1">
                     <lable name="" >Intrests:</lable>
                     <input type="checkbox" name="hobbies[]" />Cricket
                     <input type="checkbox" name="hobbies[]" />Badminton
                     <input type="checkbox" name="hobbies[]" />Hockey
                     <input type="checkbox" name="hobbies[]" />Football</br>
+                </div>
+                <div class="form-group1">
                     <lable name="" >Country:</lable>
                     <select name="country">
                         <option>choose one:</option>
@@ -39,17 +59,25 @@
                         <option>Australia</option>
                         <option>England</option>
                     </select></br>
+                </div>
+                <div class="form-group2">
                     <lable name="" >Profile Picture:</lable>
                     <input type="file" name="file upload" /></br>
+                </div>
+                <div class="form-group">
                     <lable name="" >Short Bio::</lable>
                     <textarea></textarea></br>
+                </div>    
+                <div class="form-group1">
                     <lable name="" >Terms and Conditions:</lable>
                     <input type="checkbox" name="Condition[]" />Yes
                     <input type="checkbox" name="Condition[]" />No</br>
+                </div>    
+                <div class="form-group3">
                     <input id="button" type="submit"/>
                     <input id="reset" type="reset"/>
-                </form>
-            </div>
-        
+                </div>
+            </form>
+    </div>
 </body>
 </html>
